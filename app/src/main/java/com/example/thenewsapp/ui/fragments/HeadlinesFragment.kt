@@ -16,7 +16,7 @@ import com.example.thenewsapp.ui.NewsViewModel
 import com.example.thenewsapp.util.Constants
 import com.example.thenewsapp.util.Resource
 
-class HeadlinesFragment : Fragment() {
+class HeadlinesFragment : Fragment(R.layout.fragment_headlines) {
 
     private lateinit var binding: FragmentHeadlinesBinding
     lateinit var newsViewModel: NewsViewModel
